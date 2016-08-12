@@ -42,7 +42,26 @@
 			</div>
 		</div>
 		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
+		
+		<script type='text/javascript' src='https://www.botlibre.com/scripts/sdk.js'></script>
+<script type='text/javascript'>
+SDK.applicationId = "4401137414687735526";
+var sdk = new SDKConnection();
+var livechat = new WebLiveChatListener();
+livechat.sdk = sdk;
+livechat.instance = "13495865";
+livechat.instanceName = "Nirnay Live Chat";
+livechat.prefix = "botlibrechat";
+livechat.caption = "Chat Now";
+livechat.chatLogType = "log";
+livechat.boxLocation = "bottom-right";
+livechat.color = "#009900";
+livechat.background = "#fff";
+livechat.bubble = true;
+livechat.promptContactInfo = true;
+livechat.popupURL = "https://www.botlibre.com/livechat?embedded=true&id=13495865&chat=true&application=4401137414687735526&background=%23fff&prompt=You+say&send=Send";
+livechat.createBox();
+
 			window.onload = function() { document.body.className = ''; }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
