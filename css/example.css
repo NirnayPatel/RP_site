@@ -52,3 +52,12 @@ h1
   z-index: 1000;
   width: 6000px;
 }
+
+button {
+    background-color: Black;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
