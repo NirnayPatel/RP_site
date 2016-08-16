@@ -53,14 +53,4 @@ h1
   width: 6000px;
 }
 
-button_1 {
-    background-color: Black;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    position:relative;
-    right: 0%;
-    margin-top:50%;
-}
+
