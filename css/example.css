@@ -61,6 +61,6 @@ button_1 {
     overflow: hidden;
     outline:none;
     position:relative;
-    left: 0%;
+    left: 100%;
     margin-top:50%;
 }
